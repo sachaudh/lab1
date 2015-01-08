@@ -1,0 +1,94 @@
+@import url("//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css");
+@import url("http://fonts.googleapis.com/css?family=Dosis");
+
+body {
+  padding-bottom: 20px; }
+
+em {
+  font-style: normal;
+  text-decoration: underline; }
+
+.jumbotron {
+  margin-top: -20px; }
+
+.media-object {
+  max-width: 200px;
+  margin-bottom: 10px; }
+
+.alert {
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3); }
+
+.alert.top-right {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  margin: 20px;
+  z-index: 1050;
+  outline: none; }
+  .alert.top-right .close {
+    padding-left: 10px; }
+
+.btn {
+  border-radius: 2px; }
+
+.center-form {
+  width: 330px;
+  margin: 10% auto; }
+  .center-form input {
+    border-radius: 0; }
+
+.panel {
+  border-color: #cfd9D7;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1); }
+
+.panel-default > .panel-heading {
+  color: #444;
+  border-color: #cfd9db;
+  font-weight: bold;
+  font-size: 85%;
+  text-transform: uppercase;
+  background-color: #f6f6f6; }
+
+.label li {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 4px 8px;
+  border: 0;
+  border-radius: 3px;
+  font-size: 12px;
+  transition: 0.1s all;
+  -webkit-font-smoothing: antialiased; }
+
+.label-default li {
+  background-color: #e4e7ec;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+  color: #90939a; }
+  .label-default:hover li:hover {
+    background-color: #90939a;
+    color: #f4f6f8;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2); }
+
+.navbar {
+  box-shadow: 0 3px 2px -3px rgba(0, 0, 0, 0.1); }
+
+.navbar-header {
+  float: 0;
+  left: 0; }
+
+.navbar-brand {
+  background-color: #005575;
+  transition: 0.25s all; }
+
+.navbar-nav {
+  float: left;
+  margin: 0; }
+  .navbar-nav > li {
+    float: left; }
+    .navbar-nav > li > a {
+      padding: 15px; }
+
+.well {
+  background-color: #fff;
+  border: #e3e9ec; }
