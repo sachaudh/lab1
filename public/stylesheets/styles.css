@@ -2,7 +2,9 @@
 @import url("http://fonts.googleapis.com/css?family=Dosis");
 
 body {
-  padding-bottom: 20px; }
+  padding-bottom: 20px; 
+  background-color: #E5E5E5;
+}
 
 em {
   font-style: normal;
@@ -34,8 +36,14 @@ em {
 .center-form {
   width: 330px;
   margin: 10% auto; }
-  .center-form input {
+
+.center-form input {
     border-radius: 0; }
+
+.container {
+  background-color: #FFFFFF;
+  max-width: 900px;
+}
 
 .panel {
   border-color: #cfd9D7;
