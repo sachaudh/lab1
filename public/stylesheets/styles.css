@@ -4,6 +4,9 @@
 body {
   padding-bottom: 20px; 
   background-color: #E5E5E5;
+  background-image: url("../images/background.png");
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
 }
 
 em {
